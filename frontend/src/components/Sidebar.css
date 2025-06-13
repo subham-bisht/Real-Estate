@@ -1,0 +1,23 @@
+.sidebar {
+  background-color: #e2f9f4 !important;
+  border: 0;
+  min-height: 100%;
+}
+
+.Logo {
+  /* border: 1px solid black; */
+  font-weight: 900;
+  text-align: center;
+  padding: 1rem;
+}
+
+li {
+  color: black;
+}
+
+.liLogo {
+  color: #ababab;
+  padding: 0.5rem;
+  font-size: 18px;
+  font-weight: 300;
+}

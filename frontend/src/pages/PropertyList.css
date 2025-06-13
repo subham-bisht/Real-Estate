@@ -1,0 +1,118 @@
+.listContainor {
+  background-color: #fafbfc;
+}
+
+.List {
+  border-top: 3px solid #e2f9f4;
+}
+
+.searchBar {
+  background-color: #ffffff;
+  border-radius: 28px !important;
+  margin-left: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0 8px 16px 0 rgba(228, 228, 228, 0.52),
+    0 6px 20px 0 rgba(202, 202, 202, 0.284);
+  /* padding: 5px;s */
+}
+
+.searchBar input {
+  border-radius: 25px !important;
+}
+.searchBar input::placeholder {
+  color: #c4c4c4;
+}
+
+.modal-body .container div .col-6 {
+  border: 1px solid #c4c4c4;
+}
+
+.modal-body .container {
+  padding: 0 5rem 0 5rem !important;
+}
+
+h4 {
+  text-align: center !important;
+}
+.modal-body .container div .col-12 {
+  border: 1px solid #c4c4c4;
+  border-radius: 20px 20px 0 0;
+  background-color: #e2f9f4;
+  color: #7d7d7d;
+}
+
+.prop {
+  border: 1px solid #c4c4c4;
+  border-radius: 20px 20px 0 0;
+}
+
+strong {
+  padding-right: 15px;
+}
+.searchBar button {
+  padding: auto;
+  margin: none;
+  font-size: 30px;
+  color: #69b4f8;
+}
+
+.searchSeprate {
+  border-left: 1px solid #ececec;
+  height: 2.5rem;
+  margin: 8px;
+}
+
+.btn-add {
+  background-color: #69b4f8 !important;
+  color: #ffffff;
+  border: none !important;
+  border-radius: 28px !important;
+  padding: 1rem !important;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+th {
+  color: #2b5092 !important;
+  padding: 0.75rem !important;
+}
+
+.tableRow td {
+  background-color: #ffffff !important;
+  /* border-radius: 12px; */
+  margin: 10px !important;
+  padding: 0.75rem !important;
+  border: none;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); */
+}
+
+.tableRow button:hover {
+  color: #69b4f8;
+  padding: none !important;
+}
+
+.tableRow button {
+  margin-left: 8px;
+}
+
+.Status {
+  background-color: #f5faf5;
+  color: #284e91;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.tableRow tr {
+  border-radius: 12px !important;
+}
+.table {
+  border-collapse: separate;
+  border-spacing: 0 10px; /* adds spacing between rows */
+}
+
+.dataStart {
+  border-radius: 12px 0 0 12px;
+}
+.dataEnd {
+  border-radius: 0 12px 12px 0;
+}

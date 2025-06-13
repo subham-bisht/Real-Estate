@@ -1,0 +1,25 @@
+.header {
+  /* border-bottom: 2px solid #e2f9f4 !important; */
+  background-color: #fafbfc !important;
+}
+
+h6,
+span,
+.dropdown-menu,
+.dropdown-item {
+  background-color: #fafbfc !important;
+  color: #b4b5c6 !important;
+  border: none !important;
+  text-align: center !important;
+}
+
+/* Hover-based dropdown */
+.hover-dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Align correctly under button */
+}
+
+.dropdown-item:hover {
+  background-color: #888995c2 !important;
+  color: #ffff !important;
+}

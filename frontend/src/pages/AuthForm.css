@@ -1,0 +1,78 @@
+/* Set full screen background */
+
+.AuthMainContainer {
+  height: 100vh;
+  margin: 0;
+  background-color: #e2f9f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+}
+
+/* Centered form container */
+.formContainer {
+  background-color: #ffffff;
+  align-items: center;
+  padding: 2rem 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* Input fields */
+.formContainer input {
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+
+/* Submit button */
+.formContainer button[type="submit"] {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #4c57b6;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 2rem;
+}
+
+.formContainer button[type="submit"]:hover {
+  background-color: #868fe1;
+}
+
+.formContainer form {
+  padding-top: 2rem;
+}
+
+/* Toggle form button (Sign Up / Sign In) */
+.formContainer p button {
+  background: none;
+  border: none;
+  color: #4c57b6;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0;
+}
+
+.formContainer p {
+  padding-top: 2rem;
+  font-size: small;
+  color: #666666;
+}
+
+.logo {
+  margin-top: 0.5rem;
+  font-size: xx-large;
+  color: #4c57b6;
+}

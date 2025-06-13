@@ -1,0 +1,57 @@
+.btn-cancel,
+.btn-submit,
+.btn-prev {
+  border-radius: 50px !important;
+  border: none !important;
+  padding: 20px !important;
+}
+
+.addFormContainer {
+  background-color: #fafbfc !important;
+}
+
+.cancelBtn,
+.btn-prev {
+  background-color: #69b4f8 !important;
+  width: 15%;
+}
+
+.btn-submit {
+  background-color: #4c57b6 !important;
+  /* width: auto; */
+}
+
+.AddPropertyMainContainer {
+  border-top: 3px solid #e2f9f4;
+}
+
+.AddPropertyMainContainer form {
+  background-color: #ffffff;
+  padding: 3.5rem;
+  border-radius: 10px;
+}
+input,
+select {
+  padding: 1rem !important;
+}
+
+.heading {
+  font-size: 21px;
+  font-weight: 500;
+  color: #7d7d7d;
+}
+
+select:required:invalid {
+  color: #999999;
+}
+option {
+  color: black;
+}
+
+label {
+  color: #7d7d7d;
+}
+
+input::placeholder {
+  color: #7d7d7d !important;
+}
