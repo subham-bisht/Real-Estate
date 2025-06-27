@@ -36,7 +36,7 @@ const AuthForm = () => {
           localStorage.setItem("loggedInUser", userId);
           setTimeout(() => {
             navigate("/properties");
-          }, 1000);
+          }, 0);
           setUserData({});
         } else if (!status) {
           alert(message);
