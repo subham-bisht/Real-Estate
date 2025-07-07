@@ -25,7 +25,7 @@ const PropertyList = () => {
       const userId = localStorage.getItem("loggedInUser");
 
       const response = await fetch(
-        `http://localhost:8080/realestate/property/list/${userId}`,
+        `https://real-estate-backend-p937.onrender.com/realestate/property/list/${userId}`,
         {
           method: "GET",
           headers: {
@@ -53,7 +53,7 @@ const PropertyList = () => {
 
     try {
       const response = await fetch(
-        `http://localhost:8080/realestate/property/search/${searchPPD}`,
+        `https://real-estate-backend-p937.onrender.com/realestate/property/search/${searchPPD}`,
         {
           method: "GET",
           headers: {
@@ -79,7 +79,7 @@ const PropertyList = () => {
   const handleViewData = async (id) => {
     try {
       const response = await fetch(
-        `http://localhost:8080/realestate/property/search/${id}`,
+        `https://real-estate-backend-p937.onrender.com/realestate/property/search/${id}`,
         {
           method: "GET",
           headers: {
@@ -106,7 +106,7 @@ const PropertyList = () => {
   const updateProperty = async (id, viewUpdateData) => {
     try {
       const response = await fetch(
-        `http://localhost:8080/realestate/property/edit/${id}`,
+        `https://real-estate-backend-p937.onrender.com/realestate/property/edit/${id}`,
         {
           method: "PUT",
           headers: {

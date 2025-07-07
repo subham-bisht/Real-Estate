@@ -17,7 +17,7 @@ const AuthForm = () => {
     if (isSignIn) {
       try {
         const response = await fetch(
-          "http://localhost:8080/realestate/signin",
+          "https://real-estate-backend-p937.onrender.com/realestate/signin",
           {
             method: "POST",
             headers: {
@@ -36,7 +36,7 @@ const AuthForm = () => {
           localStorage.setItem("loggedInUser", userId);
           setTimeout(() => {
             navigate("/properties");
-          }, 1000);
+          }, 0);
           setUserData({});
         } else if (!status) {
           alert(message);
@@ -53,7 +53,7 @@ const AuthForm = () => {
       }
       try {
         const response = await fetch(
-          "http://localhost:8080/realestate/signup",
+          "https://real-estate-backend-p937.onrender.com/realestate/signup",
           {
             method: "POST",
             headers: {

@@ -38,6 +38,7 @@ router.post("/signup", SignUpValidation, async (req, res) => {
       password: hashPass,
     };
     await authModel.create(data);
+    console.log(`${userId} Singed Up`);
 
     res.status(201).json({
       status: true,

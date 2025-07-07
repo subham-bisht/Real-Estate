@@ -17,7 +17,7 @@ const Header = () => {
     localStorage.removeItem("loggedInUser");
     setTimeout(() => {
       navigate("/");
-    }, 1000);
+    }, 0);
   };
   return (
     <div className="bg-fafbfc hearder p-5 border-bottom d-flex justify-content-between align-items-center">

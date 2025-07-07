@@ -45,7 +45,9 @@ const FormBasicInfo = ({ formSubmit, formData, handleOnChange, stepNext }) => {
         <div className="col-md-6 mb-3">
           <label className="form-label">Price</label>
           <input
-            type="text"
+            type="number"
+            inputMode="numeric"
+            pattern="[0-9]*"
             className="form-control"
             required
             placeholder="Example: 10000"

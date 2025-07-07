@@ -30,6 +30,7 @@ router.post("/signin", SignInValidation, async (req, res) => {
       process.env.JWT_SECRET,
       { expiresIn: "24h" }
     );
+    console.log(`${CheckUser.userId} is Logged In`);
 
     res.status(201).json({
       status: true,

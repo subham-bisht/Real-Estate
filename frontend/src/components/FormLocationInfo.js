@@ -46,15 +46,20 @@ const FormLocationInfo = ({
         <div className="col-md-6 mb-3">
           <label className="form-label">Pincode</label>
           <input
-            type="text"
+            type="number"
             className="form-control"
             inputMode="numeric"
-            pattern="\d{6}"
-            maxLength="6"
+            pattern="[0-6]{6}"
+            maxLength={6}
             required
             placeholder="Enter Pincode"
             value={formData.locationInfo?.pincode || ""}
-            onChange={handleOnChange("locationInfo", "pincode")}
+            onChange={(e) => {
+              const value = e.target.value;
+              if (/^\d{0,6}$/.test(value)) {
+                handleOnChange("locationInfo", "pincode")(e);
+              }
+            }}
           />
         </div>
 

@@ -22,12 +22,20 @@ const FormGeneralInfo = ({
         <div className="col-md-6 mb-3">
           <label className="form-label">Mobile</label>
           <input
-            type="text"
+            type="tel"
+            inputMode="numeric"
+            pattern="[0-9]{10}"
+            maxLength={10}
             className="form-control"
             required
             placeholder="Enter Mobile Number"
             value={formData.generalInfo?.mobile || ""}
-            onChange={handleOnChange("generalInfo", "mobile")}
+            onChange={(e) => {
+              const value = e.target.value;
+              if (/^\d{0,10}$/.test(value)) {
+                handleOnChange("generalInfo", "mobile")(e);
+              }
+            }}
           />
         </div>
 

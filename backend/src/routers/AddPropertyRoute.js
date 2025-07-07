@@ -26,7 +26,7 @@ router.post("/add", JWTauth, async (req, res) => {
       views: Math.floor(Math.random() * 90 + 10),
       ...req.body,
     });
-    console.log(data);
+    // console.log(data);
 
     res.status(201).json({
       status: true,
@@ -51,7 +51,7 @@ router.get("/list/:userId", JWTauth, async (req, res) => {
         message: "PPD ID not found",
       });
     }
-    console.log(data);
+    // console.log(data);
 
     res.status(201).json({
       status: true,
@@ -77,7 +77,7 @@ router.get("/search/:id", JWTauth, async (req, res) => {
         message: "PPD ID not found",
       });
     }
-    console.log(data[0]._id);
+    // console.log(data[0]._id);
 
     res.status(201).json({
       status: true,

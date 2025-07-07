@@ -54,7 +54,7 @@ const AddProperty = () => {
       // console.log(formData);
       try {
         const response = await fetch(
-          "http://localhost:8080/realestate/property/add",
+          "https://real-estate-backend-p937.onrender.com/realestate/property/add",
           {
             method: "POST",
             headers: {
